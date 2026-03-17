@@ -7,7 +7,7 @@ Docker上で動作するSQL Serverからデータを取得し、C#を用いてCS
 Dockerを用いた環境構築から、C#によるDB操作、JSONによる設定管理までを組み合わせて実装しています。
 
 ##  使用技術
--   Language  : C# (.NET 8.0)
+-   Language  : C# (.NET 9.0)
 -   Database  : SQL Server (Docker Container)
 -   Infrastructure  : Docker / Docker Compose
 -   Library  : Microsoft.Data.SqlClient, System.Text.Json
