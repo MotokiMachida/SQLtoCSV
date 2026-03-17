@@ -1,0 +1,10 @@
+services:
+  sqlserver-test:
+    image: mcr.microsoft.com/mssql/server:2022-latest #コンテナで使用しているイメージ
+    container_name: SQLDB                             #コンテナ名         
+    ports:
+      - "1433:1433"                                  #ホスト側のポート:コンテナ側のポート
+    environment:
+      - ACCEPT_EULA=Y                                 #EULA同意(Microsoft SQL Serverを使用するために必要)
+      - 'MSSQL_SA_PASSWORD=Admin!123'             #sa(ユーザIDの初期値=sa)ユーザーのパスワード設定  
+
