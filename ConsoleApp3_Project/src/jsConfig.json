@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "SqlServer": "Server=192.168.999.99,1433;Database=master;User Id=sa;Password=Test!123;TrustServerCertificate=True;"
+  }
+}
