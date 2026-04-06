@@ -21,7 +21,8 @@ Dockerを用いた環境構築から、C#によるDB操作、JSONによる設定
 ### 1. DBの起動
 `docker/` フォルダへ移動し、以下のコマンドを実行します。
 bash
-docker-compose up -d
+　　docker-compose up -d
+
 2. 設定ファイルの準備
 src/jsConfig.json をコピーして src/jsconfig1.json を作成し、自身の接続環境（サーバー名、ユーザーID、パスワード等）に合わせて書き換えてください。
 
